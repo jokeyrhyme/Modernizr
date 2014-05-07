@@ -13,7 +13,7 @@ define(['Modernizr'], function( Modernizr ) {
   Modernizr.addTest('generators', function() {
     try {
       /* jshint evil: true */
-      new Function('function* test() {}')();
+      new Function('function* () { yield 5; }()')();
     } catch(e) {
       return false;
     }

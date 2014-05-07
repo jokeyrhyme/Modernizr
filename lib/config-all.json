@@ -131,6 +131,7 @@
     "test/es6/contains",
     "test/es6/promises",
     "test/es6/generators",
+    "test/es6/syntax",
     "test/event/deviceorientation-motion",
     "test/event/oninput",
     "test/eventlistener",
